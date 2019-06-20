@@ -1,11 +1,12 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "me.modmuss50.structureutils.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "StructureSizeMixin"
   ],
   "client": [
-    "ExampleMixin"
+    "StructureBlockBlockEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
